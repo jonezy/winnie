@@ -1,0 +1,38 @@
+{
+  "name": "winnie",
+  "version": "0.0.0",
+  "description": "template generator",
+  "main": "bin/winnie",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -w -R nyan"
+  },
+  "bin": {
+    "winnie": "./bin/winnie"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonezy/winnie.git"
+  },
+  "author": "Chris Jones",
+  "license": "BSD",
+  "gitHead": "5d2c62e3442f78a908636d671977accf7509e242",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jonezy/winnie/issues"
+  },
+  "dependencies": {
+    "async": "0.1.22",
+    "commander": "0.6.1",
+    "underscore": ">=1.4.4",
+    "nconf": ">= 0.6.7",
+    "moment": "~2.1.0",
+    "colors": "~0.6.0-1"
+  },
+  "devDependencies": {
+    "mocha": "",
+    "should": ""
+  }
+}
